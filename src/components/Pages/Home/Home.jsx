@@ -1,5 +1,5 @@
 
-import { Layout } from "components/Layout/Layout";
+
 import phone from "./phone.jpg"
 import heroCss from './Hero.module.css';
 
