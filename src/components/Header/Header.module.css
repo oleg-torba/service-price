@@ -1,0 +1,25 @@
+#root{
+    background-color: #848080;
+}
+
+.header{
+    display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid #FFFFFF;
+   padding-top: 16px;
+   padding-bottom: 16px;
+}
+.navigation, .contacts{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.mainTitle {
+    color: #FDA700;
+    font-size: bold;
+}
+
+.title{
+    margin-right: 25px;
+}

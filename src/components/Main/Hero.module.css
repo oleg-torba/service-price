@@ -1,0 +1,49 @@
+.main{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.category {
+    background-color: #FDA700;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    font-weight: 500;
+
+}
+
+.button {
+    background-color: #FDA700;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 80px;
+    width: 150px;
+    border-color: transparent;
+}
+
+.repairTitle{
+    margin-bottom: 80px;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.repairTitleSecond{
+    font-size: 32px;
+}
+.serviceBlock {
+    display: flex;
+    font-weight: bold;
+}
+
+.heroImg{
+    display: block;
+    width: 320px;
+    height: 480px;
+  }
+
+  .imgBlock{
+    margin-left: auto;
+  }
