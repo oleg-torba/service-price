@@ -1,20 +1,32 @@
-.search {
+.priceTable{
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+    transition: 0.5s;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.tableTitle{
+    border: 1px solid lightgray;
+    transition: 0.5s;
+    padding: 5px;
+   
+}
+
+.tableImage{
+    display: block;
+  margin-bottom: 0;
+  margin-left: 20px;
+  height: 40px;
+  width: 50px;
+}
+
+.tableItem {
+    padding: 10px;
+    font-weight: bold;
     display: flex;
-
-}
-
-.input {
-  width: 100%;
-    height: 30px;
-    outline: none;
-    margin-right: 30px;
-    border-radius: 10px;
-    border-color: transparent;
-}
-
-.searchButton {
-    width: 150px;
-    border-radius: 10px;
-    border-color: transparent;
-    background-color: #FDA700;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
 }

@@ -1,0 +1,20 @@
+.serviceBlock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.serviceList {
+    margin-right: 25px;
+    text-align: center;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.map {
+    display: block;
+    width: 100%;
+    min-height: 300px;
+}
