@@ -4,6 +4,7 @@
     transition: 0.5s;
     margin-top: 30px;
     width: 100%;
+    text-align: center;
 }
 
 .tableTitle{
@@ -29,4 +30,9 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+}
+
+.unavailable {
+    color: #FDA700;
+    border: 1px solid lightgray;
 }
