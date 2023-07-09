@@ -1,4 +1,4 @@
-import phone from './phone.jpg';
+import phone from '../phone.jpg';
 import heroCss from './Hero.module.css';
 
 export function Home() {

@@ -1,8 +1,8 @@
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { Layout } from './Layout/Layout';
 import { Home } from './Pages/Home/Home';
-import { Price } from './Pages/Home/Price/Price';
-import { Service } from './Pages/Home/Service/Service';
+import { Price } from './Pages/Price/Price';
+import { Service } from './Pages/Service/Service';
 export const App = () => {
   return (
     <Routes>

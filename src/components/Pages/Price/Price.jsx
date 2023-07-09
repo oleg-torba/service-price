@@ -1,8 +1,8 @@
 
 import { Form } from "components/Form/Form"
 import { useState, useEffect } from 'react';
-import dataJson from "../../../../gsm-price.json"
-import priceCss from "../Price/price.module.css"
+import dataJson from "../../../gsm-price.json"
+import priceCss from "./price.module.css"
 export function Price () {
     const data = dataJson.shop.items.item;
     const [searchQuery, setSearchQuery] = useState('');
