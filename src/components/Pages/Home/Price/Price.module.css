@@ -11,7 +11,7 @@
     border: 1px solid lightgray;
     transition: 0.5s;
     padding: 5px;
-   
+   font-weight: bold;
 }
 
 .tableImage{
@@ -35,4 +35,5 @@
 .unavailable {
     color: #FDA700;
     border: 1px solid lightgray;
+    font-weight: bold;
 }

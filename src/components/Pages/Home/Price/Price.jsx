@@ -79,9 +79,9 @@ export function Price () {
                             ) : (
                                 <td className={priceCss.tableTitle}>{priceCharge} грн</td>
                             )}
-                            {available ? (
-                                <td className="tableTitle available">На складі</td>
-                            ) : (<td className="tableTitle unavailable">Запит</td>)}
+                                      {available ? (
+                                <td className={priceCss.tableTitle}>На складі</td>
+                            ) : (<td className={priceCss.unavailable}>Запит</td>)}
 
                         </tr>
                     );
