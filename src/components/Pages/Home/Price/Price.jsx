@@ -8,23 +8,6 @@ export function Price () {
     const [searchQuery, setSearchQuery] = useState('');
     const [gsm, setGsm] = useState([]);
     gsm.sort((a, b) => (a.available < b.available ? 1 : -1));
-    // const battery = gsm.filter(i => i.name.includes('Акумулятор'));
-    // const lcd = gsm.filter(i => i.name.includes('Дисплей'));
-    // const buzzer = gsm.filter(i => i.name.toLowerCase().includes('бузер'));
-    // const backCoverIphone = gsm.filter(
-    //   i => i.name.includes('Кришка задня')
-    // );
-    // const backCover = gsm.filter(
-    //   i => i.name.includes('Задня частина')
-    // );
-    // const camera = gsm.filter(i => i.name.includes('Камера'));
-    // const charge = gsm.filter(i => i.name.includes("Роз'єм"));
-    // const speaker = gsm.filter(i => i.name.toLowerCase().includes('динамік'));
-    // const flat = gsm.filter(i => i.name.includes('Шлейф'));
-    // const touch = gsm.filter(i => i.name.includes('Тачскрін'));
-    // const corps = gsm.filter(i => i.name.includes('Корпус'));
-    // const ic = gsm.filter(i => i.name.includes('Мікросхема'));
-    // const cameraGlass = gsm.filter(i => i.name.includes('Скло камери'));
     useEffect(() => {
         if (searchQuery === '') {
           return;
